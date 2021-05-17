@@ -447,6 +447,12 @@ The console menu shows 13 options.
 
 Table:  *The console menu*
 
+.. Note::
+   When logining with a non-root administrative account, this menu will not be visible. There is 2 options for enabling this.
+   
+   1)Manually - Each time you login with a non-root administrative account, enter ```sudo su``` and then the account password.
+   2)Automatically - At the end of your ```~/.profile``` (home profile) of the non-root administrative account, enter ```sudo su```.
+
 .. rubric:: opnsense-update
    :name: opnsense-update
 
